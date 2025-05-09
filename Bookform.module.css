@@ -1,0 +1,53 @@
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('/img/1.png'); /* Set background image */
+    background-size: cover; /* Ensure the image covers the entire form */
+    background-position: center; /* Center the image */
+    background-color: #e26d6d;
+    box-shadow: 0 4px 6px rgba(250, 98, 98, 0.1);
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input, .select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input:focus, .select:focus {
+    border-color: #0070f3;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 112, 243, 0.5);
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #005bb5;
+}
